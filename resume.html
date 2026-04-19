@@ -1,125 +1,150 @@
 <!DOCTYPE html>
 <html>
     <Head>
-        <h1 style="text-align: center;">Резюме</h1>
+        <h1 id="top" style="text-align: center;">Резюме</h1>
     </Head>
 
     <body>
-        <img src="profile.jfif">
-        <p><b>Имя:</b> Николай</p>
-        <p><b>Профессия или желаемая роль:</b> Программист</p>
-        <p><b>Описание:</b></p>
-        <p>Первый абзац с описанием ...</p>
-        <p>Второй абзац с описанием.</p>
 
-        <p id="skills"><b>Навыки:</b></p>
-        <ul>
-            <li>1 навык</li>
-            <li>2 навык</li>
-            <li>3 навык</li>
-            <li>4 навык</li>
-        </ul>
+        <header>
+            <h1>Меню</h1>
+            <nav>
+                <a href="#resume">Начало резюме</a>
+                <a href="#blocks">Блоки</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+            <hr style="height: 2px; background-color:black;">
+        </header>
 
-        <p><b>Хобби:</b></p>
-        <ul>
-            <li>1 хобби</li>
-            <li>2 хобби</li>
-            <li>3 хобби</li>
-            <li>4 хобби</li>
-        </ul>
+        <main>
+            <section id="resume">
+                <img src="profile.jfif">
+                <p><b>Имя:</b> Николай</p>
+                <p><b>Профессия или желаемая роль:</b> Программист</p>
+                <p><b>Описание:</b></p>
+                <p>Первый абзац с описанием ...</p>
+                <p>Второй абзац с описанием.</p>
 
-        <table id="table" border="2px">
-            <caption><h4>Опыт / обучение / проекты</h4></caption>
-            <thead>
-                <tr>
-                    <th>Опыт</th>
-                    <th>Обучение</th>
-                    <th>Проекты</th>
-                    <th>Описание</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Кем-то был</td>
-                    <td>Где-то обучался</td>
-                    <td>Что-то делал</td>
-                    <td>Как что-то делал</td>
-                </tr>
-                <tr>
-                    <td>Кем-то был</td>
-                    <td>Где-то обучался</td>
-                    <td>Что-то делал</td>
-                    <td>Как что-то делал</td>
-                </tr>
-                <tr>
-                    <td>Кем-то был</td>
-                    <td>Где-то обучался</td>
-                    <td>Что-то делал</td>
-                    <td>Как что-то делал</td>
-                </tr>
-                <tr>
-                    <td>Кем-то был</td>
-                    <td>Где-то обучался</td>
-                    <td>Что-то делал</td>
-                    <td>Как что-то делал</td>
-                </tr>
-            </tbody>
-        </table>
+                <p id="skills"><b>Навыки:</b></p>
+                <ul>
+                    <li>1 навык</li>
+                    <li>2 навык</li>
+                    <li>3 навык</li>
+                    <li>4 навык</li>
+                </ul>
 
-        <hr style="height: 2px; background-color:black;">
+                <p><b>Хобби:</b></p>
+                <ul>
+                    <li>1 хобби</li>
+                    <li>2 хобби</li>
+                    <li>3 хобби</li>
+                    <li>4 хобби</li>
+                </ul>
 
-        <h4>Строчные элементы подряд:</h4>
-        <span style="background-color: rgba(255, 0, 51, 0.484);">Это первый элемент</span>
-        <span style="background-color: aqua;">Вот второй</span>
-        <span style="background-color: chartreuse;">А это третий</span>
+                <table id="table" border="2px">
+                    <caption><h4>Опыт / обучение / проекты</h4></caption>
+                    <thead>
+                        <tr>
+                            <th>Опыт</th>
+                            <th>Обучение</th>
+                            <th>Проекты</th>
+                            <th>Описание</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Кем-то был</td>
+                            <td>Где-то обучался</td>
+                            <td>Что-то делал</td>
+                            <td>Как что-то делал</td>
+                        </tr>
+                        <tr>
+                            <td>Кем-то был</td>
+                            <td>Где-то обучался</td>
+                            <td>Что-то делал</td>
+                            <td>Как что-то делал</td>
+                        </tr>
+                        <tr>
+                            <td>Кем-то был</td>
+                            <td>Где-то обучался</td>
+                            <td>Что-то делал</td>
+                            <td>Как что-то делал</td>
+                        </tr>
+                        <tr>
+                            <td>Кем-то был</td>
+                            <td>Где-то обучался</td>
+                            <td>Что-то делал</td>
+                            <td>Как что-то делал</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            
+            <article id="blocks">
+                <hr style="height: 2px; background-color:black;">
 
-        <h4>Блочные элементы подряд:</h4>
-        <div style="background-color: rgba(255, 0, 51, 0.484); width: 35%;">Это первый элемент</div>
-        <div style="background-color: aqua; width: 35%;">Вот второй</div>
-        <div style="background-color: chartreuse; width: 35%;">А это третий</div>
+                <h4>Строчные элементы подряд:</h4>
+                <span style="background-color: rgba(255, 0, 51, 0.484);">Это первый элемент</span>
+                <span style="background-color: aqua;">Вот второй</span>
+                <span style="background-color: chartreuse;">А это третий</span>
 
-        <h4>Строчные элементы внутри абзаца:</h4>
-        <p>
-            Обычный абзац с текстом и ничего такого, однако раз - и тут <strong>выделение</strong>,
-            хотя строка не <span style="color: rgb(254, 17, 17);">обрывалась.</span> 
-        </p>
+                <h4>Блочные элементы подряд:</h4>
+                <div style="background-color: rgba(255, 0, 51, 0.484); width: 35%;">Это первый элемент</div>
+                <div style="background-color: aqua; width: 35%;">Вот второй</div>
+                <div style="background-color: chartreuse; width: 35%;">А это третий</div>
 
-        <h4>Блочные элементы, но они отделены визуально:</h4>
-        <div style="background-color: rgba(255, 0, 51, 0.484); width: 35%; border: 2px solid red; border-radius: 5px; margin: 5px 0;">Это первый элемент с обводкой(закругленной)</div>
-        <div style="background-color: aqua; width: 35%; border: 4px dotted blue; border-radius: 9px; margin: 5px 0;">Вот второй и тоже с рамкой</div>
-        <div style="background-color: chartreuse; width: 35%; box-shadow: 2px 2px 5px; margin: 5px 0;">А это третий с тенью и квадратный</div>
+                <h4>Строчные элементы внутри абзаца:</h4>
+                <p>
+                    Обычный абзац с текстом и ничего такого, однако раз - и тут <strong>выделение</strong>,
+                    хотя строка не <span style="color: rgb(254, 17, 17);">обрывалась.</span> 
+                </p>
 
-        <hr style="height: 2px; background-color:black;">
+                <h4>Блочные элементы, но они отделены визуально:</h4>
+                <div style="background-color: rgba(255, 0, 51, 0.484); width: 35%; border: 2px solid red; border-radius: 5px; margin: 5px 0;">Это первый элемент с обводкой(закругленной)</div>
+                <div style="background-color: aqua; width: 35%; border: 4px dotted blue; border-radius: 9px; margin: 5px 0;">Вот второй и тоже с рамкой</div>
+                <div style="background-color: chartreuse; width: 35%; box-shadow: 2px 2px 5px; margin: 5px 0;">А это третий с тенью и квадратный</div>
 
-        <div>
-            <h4>Контакты:</h4>
-            <p><i>Телефон:</i> +7(xxx)xxx-xx-xx</p>
-            <p><i>E-mail:</i> email@email.com</p>
-        </div>
+                <hr style="height: 2px; background-color:black;">
+            </article>
 
-        <div>
-            <h4>Ссылки:</h4>
-            <p><a href="https://github.com/Nik0St9">Мой github</a></p>
-            <p><a href="https://google.com">Google</a></p>
-            <p><a href="https://yandex.ru">Yandex</a></p>
-        </div>
+            <section id="contacts">
+                <div>
+                    <h4>Контакты:</h4>
+                    <p><i>Телефон:</i> +7(xxx)xxx-xx-xx</p>
+                    <p><i>E-mail:</i> email@email.com</p>
+                </div>
 
-        <div>
-            <h4>Больше ссылок:</h4>
-            <ol><i>Внешние:</i>
-                <li><a href="https://sakhgu.ru">СахГУ</a></li>
-                <li><a href="https://spotify.com" style="color: rgb(19, 184, 19);" >Spotify</a></li>
-            </ol>
-            <ol><i>Внутренние:</i>
-                <li><a href="#skills">Мои навыки</a></li>
-                <li><a href="#table">Таблица</a></li>
-            </ol>
-            <ul><i>Написать на почту:</i>
-                <li><a href="mailto:email@email.com">Написать на какую-то почту</a></li>
-            </ul>
-            <ul><i>В новой вкладке:</i>
-                <li><a href="https://github.com/SctrThCt/web-front-summary/blob/main/layout-practice.md" target="_blank">Эти задания</a></li>
-            </ul>
-        </div>
+                <div>
+                    <h4>Ссылки:</h4>
+                    <p><a href="https://github.com/Nik0St9">Мой github</a></p>
+                    <p><a href="https://google.com">Google</a></p>
+                    <p><a href="https://yandex.ru">Yandex</a></p>
+                </div>
+
+                <div>
+                    <h4>Больше ссылок:</h4>
+                    <ol><i>Внешние:</i>
+                        <li><a href="https://sakhgu.ru">СахГУ</a></li>
+                        <li><a href="https://spotify.com" style="color: rgb(19, 184, 19);" >Spotify</a></li>
+                    </ol>
+                    <ol><i>Внутренние:</i>
+                        <li><a href="#skills">Мои навыки</a></li>
+                        <li><a href="#table">Таблица</a></li>
+                    </ol>
+                    <ul><i>Написать на почту:</i>
+                        <li><a href="mailto:email@email.com">Написать на какую-то почту</a></li>
+                    </ul>
+                    <ul><i>В новой вкладке:</i>
+                        <li><a href="https://github.com/SctrThCt/web-front-summary/blob/main/layout-practice.md" target="_blank">Эти задания</a></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <hr style="height: 2px; background-color:black;">
+            <p>Самый низ страницы. <a href="#">^ Наверх ^</a></p>
+        </footer>
+
     </body>
 </html>
