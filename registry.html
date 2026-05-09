@@ -1,59 +1,97 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <h1 style="text-align: center;">Формы</h1>
-    </head>
 
-    <body>
-        <form action="">
-            <fieldset style="border-radius: 10px;">
-                <legend>Регистрация:</legend>
-                <p>
-                    <label>Имя:</label> 
-                    <input type="text" required>
-                </p>
-                <p>
-                    <label>Фамилия:</label> 
-                    <input type="text">
-                </p>
-                <p>
-                    <label>E-mail:</label>
-                    <input type="email">
-                </p>
-                <p>
-                    <label>Телефон:</label>
-                    <input type="tel">
-                </p>
-                <p>
-                    <label>Пароль:</label>
-                    <input type="password" required>
-                </p>
-                <p>
-                    <label>Подтверждение пароля:</label>
-                    <input type="password" required>
-                </p>
-                <p>
-                    <label>Дата рождения:</label>
-                    <input type="date">
-                </p>
-                <p>
-                    <label>Пол:</label>
-                    <b>М</b><input name="gender" type="radio">
-                    <b>Ж</b><input name="gender" type="radio">
-                </p>
-                <p>
-                    <label>Согласен:</label>
-                    <br>
-                    <b>Да</b><input name="agreement" type="checkbox">
-                    <b>Нет</b><input name="agreement" type="checkbox">
-                </p>
-                <!-- Кнопки тут -->
-                <p>
-                    <input type="submit" value="Отправить">
-                    <input type="reset" value="Очистить">
-                </p>
-                
-            </fieldset>
-        </form>
-    </body>
+<head>
+    <h1 style="text-align: center;">Формы</h1>
+</head>
+
+<body>
+    <form action="">
+        <fieldset style="border-radius: 10px;">
+            <legend>Регистрация:</legend>
+            <p>
+                <label>Имя:</label>
+                <input type="text" required>
+            </p>
+            <p>
+                <label>Фамилия:</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>E-mail:</label>
+                <input type="email">
+            </p>
+            <p>
+                <label>Телефон:</label>
+                <input type="tel">
+            </p>
+            <p>
+                <label>Пароль:</label>
+                <input type="password" required>
+            </p>
+            <p>
+                <label>Подтверждение пароля:</label>
+                <input type="password" required>
+            </p>
+            <p>
+                <label>Дата рождения:</label>
+                <input type="date">
+            </p>
+            <p>
+                <label>Пол:</label>
+                <b>М</b><input name="gender" type="radio">
+                <b>Ж</b><input name="gender" type="radio">
+            </p>
+            <p>А
+                <label>Согласен:</label>
+                <br>
+                <b>Да</b><input name="agreement" type="checkbox">
+                <b>Нет</b><input name="agreement" type="checkbox">
+            </p>
+            <!-- Кнопки тут -->
+            <p>
+                <input type="submit" value="Отправить">
+                <input type="clear" value="Очистить">
+            </p>
+
+        </fieldset>
+    </form>
+
+    <form action="">
+        <fieldset style="border-radius: 10px;">
+            <legend>Фильтр:</legend>
+            <input type="text" style="width: 100%; margin-bottom: 5px;" placeholder="Поиск...">
+            <select>
+                <option value="value1">Категория 1</option>
+                <option value="value2">Категория 2</option>
+                <option value="value3">Категория 3</option>
+            </select>
+
+            <select>
+                <option value="LowToHigh">По возрастанию</option>
+                <option value="HighToLow">По убыванию</option>
+            </select>
+
+            <br>
+            <label>Цена:</label>
+            <input type="range" min="0" max="100" step="10" value="50">
+
+            <br>
+            <label>Чекбоксы?</label>
+            <b>Да</b><input name="checkboxs" type="checkbox">
+            <b>Нет</b><input name="checkboxs" type="checkbox">
+
+            <br>
+            <label>Точно?</label>
+            <b>Да</b><input name="Sure" type="radio">
+            <b>Нет</b><input name="Sure" type="radio">
+
+            <p>
+                <input type="submit" value="Применить">
+                <input type="reset" value="Сбросить">
+            </p>
+        </fieldset>
+    </form>
+</body>
+
 </html>
