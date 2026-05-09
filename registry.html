@@ -7,8 +7,8 @@
 
 <body>
     <form action="">
-        <fieldset style="border-radius: 10px;">
-            <legend>Регистрация:</legend>
+        <fieldset style="border-radius: 10px; border-color: red;">
+            <legend style="color: red;">Регистрация:</legend>
             <p>
                 <label>Имя:</label>
                 <input type="text" required>
@@ -51,15 +51,15 @@
             <!-- Кнопки тут -->
             <p>
                 <input type="submit" value="Отправить">
-                <input type="clear" value="Очистить">
+                <input type="reset" value="Очистить">
             </p>
 
         </fieldset>
     </form>
 
     <form action="">
-        <fieldset style="border-radius: 10px;">
-            <legend>Фильтр:</legend>
+        <fieldset style="border-radius: 10px; border-color: green;">
+            <legend style="color: green;">Фильтр:</legend>
             <input type="text" style="width: 100%; margin-bottom: 5px;" placeholder="Поиск...">
             <select>
                 <option value="value1">Категория 1</option>
@@ -94,8 +94,8 @@
     </form>
 
     <form action="">
-        <fieldset style="border-radius: 10px;">
-            <legend>Обратная связь:</legend>
+        <fieldset style="border-radius: 10px; border-color: blue;">
+            <legend style="color: blue;">Обратная связь:</legend>
             <p>
                 <label>Имя:</label>
                 <input type="text" required>
@@ -117,6 +117,65 @@
         </fieldset>
     </form>
 
+    <form action="">
+        <fieldset style="border-radius: 10px; border-color: rgb(255, 55, 161);">
+            <legend style="color: rgb(255, 55, 161);">Большая форма:</legend>
+
+            <fieldset style="border-top-left-radius: 7px; border-top-right-radius: 7px;">
+                <legend>Личные данные:</legend>
+                <p>
+                    <label>Имя:</label>
+                    <input type="text">
+                </p>
+                <p>
+                    <label>Фамилия:</label>
+                    <input type="text">
+                </p>
+                <p>
+                    <label>Дата рождения:</label>
+                    <input type="date">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Контакты:</legend>
+                <p>
+                    <label>E-mail:</label>
+                    <input type="email">
+                </p>
+                <p>
+                    <label>E-mail (Запасной):</label>
+                    <input type="email">
+                </p>
+                <p>
+                    <label>Телефон:</label>
+                    <input type="tel">
+                </p>
+                <p>
+                    <label>Телефон (Второй):</label>
+                    <input type="tel">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Предпочтения:</legend>
+                <p><input name="musicGenre" type="checkbox"><b>Классическая</b></p>
+                <p><input name="musicGenre" type="checkbox"><b>Поп</b></p>
+                <p><input name="musicGenre" type="checkbox"><b>Рок</b></p>
+                <p><input name="musicGenre" type="checkbox"><b>Джаз</b></p>
+                <p><input name="musicGenre" type="checkbox"><b>Электроника</b></p>
+            </fieldset>
+            <fieldset style="border-bottom-right-radius: 7px; border-bottom-left-radius: 7px;">
+                <legend>Дополнительная информация:</legend>
+                <textarea id="Text" rows="4" cols="50" placeholder="Расскажите еще о себе..." required></textarea>
+            </fieldset>
+            <p>
+                <input type="submit" value="Отправить">
+                <input type="reset" value="Очистить">
+            </p>
+
+        </fieldset>
+    </form>
 </body>
 
 </html>
