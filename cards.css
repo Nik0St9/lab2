@@ -30,3 +30,21 @@ a{
     font-style: italic;  
     font-size: large;  
 }
+
+#user{
+    margin: 0 0 20px 100px;
+    width: 200px;
+}
+
+#product{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 800px;
+    padding: 0 5px 10px 100px;
+}
+
+#info{
+    padding: 0 10px 20px 20px;
+    border: 8px dotted rebeccapurple;
+    border-radius: 60px;
+}
