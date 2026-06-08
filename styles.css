@@ -1,0 +1,142 @@
+.card {
+    width: 400px;
+    height: 370px;
+
+    padding: 0 5px 5px 5px;
+    margin: 4px;
+
+    border: 2px solid black;
+    border-radius: 8px;
+
+    display: inline-block;
+    position: relative;
+
+    overflow: auto;
+}
+
+.cardImage {
+    width: 200px;
+    height: 200px;
+}
+
+.cardButton {
+    position: relative;
+    margin-top: 19px;
+}
+
+.longText {
+    margin-bottom: 25px;
+}
+
+.block {
+    margin: 5px 0;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: block;
+}
+
+.inline {
+    margin: 5px 0;
+    padding: 10px;
+    display: inline;
+}
+
+.inlineblock {
+    border: 2px solid Red;
+    border-radius: 8px;
+    margin: 5px 0;
+    padding: 10px;
+    display: inline-block;
+}
+
+.None {
+    margin: 5px 0;
+    padding: 10px;
+    display: None;
+}
+
+.overflowVisible {
+    width: 400px;
+    height: 280px;
+
+    border: 2px solid black;
+    border-radius: 8px;
+
+    padding: 0 10px;
+    margin: 5px 0;
+
+    overflow: visible;
+    display: inline-block;
+}
+
+.overflowHidden {
+    width: 400px;
+    height: 280px;
+
+    border: 2px solid black;
+    border-radius: 8px;
+
+    padding: 0 10px;
+    margin: 5px 0;
+
+    overflow: hidden;
+    display: inline-block;
+}
+
+.overflowScroll {
+    width: 400px;
+    height: 280px;
+
+    border: 2px solid black;
+    border-radius: 8px;
+
+    padding: 0 10px;
+    margin: 5px 0;
+
+    overflow: scroll;
+    display: inline-block;
+}
+
+.overflowAuto {
+    width: 400px;
+    height: 280px;
+
+    border: 2px solid black;
+    border-radius: 8px;
+
+    padding: 0 10px;
+    margin: 5px 0;
+
+    overflow: auto;
+    display: inline-block;
+}
+
+.borderBox{
+    box-sizing: content-box;
+
+    border: 2px solid Black;
+    border-radius: 8px;
+
+    width: 400px;
+    height: 200px;
+
+    margin: 10px;
+    padding: 15px;
+}
+.contentBox{
+    box-sizing: border-box;
+
+    border: 2px solid Black;
+    border-radius: 8px;
+
+    width: 400px;
+    height: 200px;
+
+    margin: 10px;
+    padding: 15px;
+}
+
+h2,h1{
+    text-align: center;
+}
