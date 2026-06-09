@@ -72,7 +72,7 @@ main {
     margin-top: 20px;
     flex-wrap: wrap;
     gap: 20px;
-    
+
     .card {
         display: flex;
         flex-direction: column;
@@ -143,6 +143,78 @@ main {
             .buyButton:hover {
                 cursor: pointer;
                 background-color: rgb(180, 255, 255);
+            }
+        }
+    }
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+
+    margin: 40px;
+    gap: 10px;
+
+    font-size: 30px;
+
+    .leftColumn {
+        display: flex;
+        flex-direction: column;
+
+        box-sizing: border-box;
+
+        padding: 5px 10px 0 10px;
+
+        width: 30%;
+        border: 2px solid black;
+        border-radius: 5px;
+
+        a {
+            text-decoration: none;
+            color: brown;
+        }
+
+        a:hover {
+            color: red;
+        }
+    }
+
+    .rightColumn {
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+
+        padding: 0 10px;
+        box-sizing: border-box;
+
+        border: 2px solid black;
+        border-radius: 5px;
+
+        .topPanel {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            border-bottom: 1px solid black;
+
+            .cardButton {
+                margin: 10px 0 4px auto;
+                font-size: 30px;
+
+                border-radius: 10px;
+            }
+
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row;
+            align-content: space-between;
+
+            .contentRight {
+                margin: 0 0 0 auto;
+
             }
         }
     }
