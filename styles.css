@@ -12,6 +12,10 @@ header {
 .login {
     justify-content: center;
     margin-left: auto;
+
+    width: 100px;
+
+    font-size: larger;
 }
 
 main {
@@ -22,8 +26,8 @@ main {
 
 .card {
 
-    width: 150px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 
     padding: 0 5px 5px 5px;
 
@@ -36,16 +40,51 @@ main {
     text-align: center;
 
     .cardImage {
-        width: 130px;
-        height: 130px;
+        width: 100px;
+        height: 100px;
     }
 }
 
-.cards{
+.cards {
     margin-top: 20px;
 
     display: flex;
-    gap: 10px;
-    scroll-behavior: auto;
     justify-content: center;
+
+    gap: 10px;
+    flex-wrap: wrap;
+
+    a {
+        text-decoration: none;
+        color: rgb(37, 134, 208);
+    }
+}
+
+
+
+.stuff {
+    width: 150px;
+    height: 150px;
+
+    padding: 5px 5px 20px 5px;
+
+    border: 2px solid black;
+    border-radius: 35px;
+
+    display: inline-block;
+    position: relative;
+
+    text-align: center;
+
+    .profileImage {
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+.stuff:hover {
+    color: rgb(49, 210, 255);
+    background-color: rgba(73, 78, 82, 0.49);
+    transition: 0.3s ease;
 }
