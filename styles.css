@@ -47,10 +47,18 @@ header {
             height: 30px;
 
             font-size: larger;
+
+            border-radius: 18px;
+        }
+
+        .login:hover{
+            cursor: pointer;
+            background-color: rgb(147, 199, 245);
         }
     }
 
 }
+
 
 main {
     display: flex;
@@ -92,32 +100,4 @@ main {
             height: 100px;
         }
     }
-
-    .stuff {
-        width: 150px;
-        height: 150px;
-
-        padding: 5px 5px 20px 5px;
-
-        border: 2px solid black;
-        border-radius: 35px;
-
-        display: inline-block;
-        position: relative;
-
-        text-align: center;
-
-        .profileImage {
-            width: 100px;
-            height: 100px;
-        }
-
-    }
-
-    .stuff:hover {
-        color: rgb(49, 210, 255);
-        background-color: rgba(73, 78, 82, 0.49);
-        transition: 0.15s ease;
-    }
-
 }
