@@ -219,3 +219,28 @@ main {
         }
     }
 }
+
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border: 2px solid black;
+    border-radius: 45px;
+    
+    padding: 0 20px;
+    margin: 10px 40px;
+
+    font-size: 30px;
+
+    .lineButton{
+        font-size: 30px;
+        margin: 10px 0 10px auto;
+        
+        border-radius: 40px;
+
+        background-color: rgba(211, 31, 31, 0.303);
+        color: rgba(255, 0, 0, 0.658);
+        cursor: pointer;
+    }
+}
