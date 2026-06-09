@@ -51,7 +51,7 @@ header {
             border-radius: 18px;
         }
 
-        .login:hover{
+        .login:hover {
             cursor: pointer;
             background-color: rgb(147, 199, 245);
         }
@@ -59,33 +59,26 @@ header {
 
 }
 
+h1 {
+    text-align: center;
+    margin: 0 auto;
+}
 
 main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cards {
-    margin-top: 20px;
-
-    display: flex;
+    flex-direction: row;
     justify-content: center;
 
-    gap: 10px;
+    margin-top: 20px;
     flex-wrap: wrap;
-
-    a {
-        text-decoration: none;
-        color: rgb(37, 134, 208);
-    }
-
+    gap: 20px;
+    
     .card {
-
-        width: 100px;
-        height: 100px;
+        display: flex;
+        flex-direction: column;
 
         padding: 0 5px 5px 5px;
+        width: 250px;
 
         border: 2px solid black;
         border-radius: 8px;
@@ -93,11 +86,64 @@ main {
         display: inline-block;
         position: relative;
 
-        text-align: center;
+        .cardTop {
+            display: flex;
+            flex-direction: column;
 
-        .cardImage {
-            width: 100px;
-            height: 100px;
+            text-align: left;
+            font-style: italic;
+
+            .cardImage {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        .cardMiddle {
+            display: flex;
+            flex-direction: column;
+
+            height: 130px;
+
+            .description {
+                overflow: auto;
+            }
+
+            .rate {
+                margin: 0;
+                text-align: right;
+            }
+        }
+
+        .cardFooter {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 10px 0 3px 0;
+
+            .cost {
+                border: 2px solid green;
+                border-radius: 15px;
+
+                padding: 4px;
+                margin: 0;
+
+                background-color: rgba(0, 128, 0, 0.4);
+                color: rgb(13, 52, 13);
+            }
+
+            .buyButton {
+                margin-right: 0 auto;
+
+                height: 30px;
+
+                border-radius: 10px;
+            }
+
+            .buyButton:hover {
+                cursor: pointer;
+                background-color: rgb(180, 255, 255);
+            }
         }
     }
 }
