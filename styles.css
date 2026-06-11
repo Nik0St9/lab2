@@ -1,0 +1,30 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .card {
+        border: 2px solid black;
+        font-size: larger;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        margin: 5px;
+        padding: 10px;
+
+        border-radius: 12px;
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .leftPart {
+            justify-self: start;
+        }
+
+        .rightPart {
+            justify-self: end;
+        }
+    }
+}
