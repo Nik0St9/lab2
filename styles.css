@@ -92,7 +92,6 @@
     grid-template-columns: 1fr 2fr 1fr;
     justify-items: center;
     border-bottom: 2px solid rgb(12, 78, 154);
-    ;
 
     h1 {
         justify-self: center;
@@ -111,6 +110,7 @@
     .products {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-auto-flow: auto;
 
         .item {
             display: flex;
@@ -129,6 +129,23 @@
             img {
                 width: 350px;
                 height: 200px;
+            }
+
+            .description {
+                display: flex;
+                flex-direction: row;
+
+                .buyButton {
+                    height: 35px;
+                    cursor: pointer;
+
+                    background-color: rgb(53, 175, 53);
+                    color: rgb(7, 93, 27);
+
+                    border-radius: 10px;
+
+                    align-self: flex-end;
+                }
             }
 
         }
