@@ -175,3 +175,100 @@
     display: grid;
     grid-template-rows: 100px 100px;
 }
+
+.dashHeader {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;
+
+    .logo {
+        justify-self: left;
+
+        img {
+            width: 140px;
+            height: 140px;
+        }
+    }
+}
+
+.dashMain {
+    display: grid;
+    grid-template-rows: auto auto;
+
+    .dashMainUp {
+        display: grid;
+        grid-template-columns: 20% auto;
+
+        .navigation {
+            display: flex;
+            flex-direction: column;
+
+            h2 {
+                margin-bottom: 0;
+            }
+
+            li {
+                margin: 20px 5px 5px 10px;
+
+            }
+
+        }
+
+        .content {
+            display: grid;
+            grid-template-rows: repeat(3, 60px auto);
+
+            .stats {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 5px;
+
+                .stat {
+                    border: 2px solid black;
+                    border-radius: 10px;
+                    padding-left: 10px;
+                }
+            }
+
+            table,
+            th,
+            tr,
+            td {
+                border: 2px solid black;
+                border-collapse: collapse
+            }
+
+            .notifications {
+                display: grid;
+                gap: 20px;
+
+                .notification {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    gap: 20px;
+                    height: 35px;
+
+                    border: 2px solid black;
+                    border-radius: 10px;
+
+                    padding-left: 5px;
+
+                    p {
+                        margin-right: auto;
+                    }
+
+                    button {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .dashMainDown{
+        text-align: center;
+    }
+}
